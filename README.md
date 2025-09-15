@@ -31,13 +31,17 @@ df=pd.read_csv("titanic_dataset.csv")
 df
 ```
 <img width="1227" height="418" alt="image" src="https://github.com/user-attachments/assets/66d5abac-5b8c-4768-860e-fc6bc721100a" />
+
 ```
 df.info()
 ```
+
 <img width="492" height="412" alt="image" src="https://github.com/user-attachments/assets/f14c54b7-e45d-4331-ba03-fc29de539760" />
+
 ```
 df.describe
 ```
+<img width="641" height="677" alt="image" src="https://github.com/user-attachments/assets/3dffd782-26d8-4cc5-b35e-bb268189fb87" />
 
 # RESULT
         <<INCLUDE YOUR RESULT HERE>>
