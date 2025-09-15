@@ -53,7 +53,8 @@ df.dtypes
 df.shape
 ```
 
-<img width="88" height="22" alt="image" src="https://github.com/user-attachments/assets/603cdb0b-1a1b-47da-a5bc-5a789a1408a0" />
+<img width="993" height="26" alt="image" src="https://github.com/user-attachments/assets/2fac7418-5c9b-4d1b-b3f4-b5e0e6bd27eb" />
+
 
 ```
 df['Age'].value_counts()
@@ -82,7 +83,10 @@ sns.countplot(data=df,x='Age')
 <img width="715" height="461" alt="image" src="https://github.com/user-attachments/assets/0c3ad714-64d7-4214-8b0d-0eef78894457" />
 
 ```
-
+df.rename(columns={'Sex':'Gender'},inplace=True)
+df
 ```
+
+
 # RESULT
         <<INCLUDE YOUR RESULT HERE>>
