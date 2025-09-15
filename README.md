@@ -43,5 +43,46 @@ df.describe
 ```
 <img width="641" height="677" alt="image" src="https://github.com/user-attachments/assets/3dffd782-26d8-4cc5-b35e-bb268189fb87" />
 
+```
+df.dtypes
+```
+
+<img width="212" height="223" alt="image" src="https://github.com/user-attachments/assets/b5d4f819-8908-42f3-8468-957e8ec02caa" />
+
+```
+df.shape
+```
+
+<img width="88" height="22" alt="image" src="https://github.com/user-attachments/assets/603cdb0b-1a1b-47da-a5bc-5a789a1408a0" />
+
+```
+df['Age'].value_counts()
+```
+
+<img width="317" height="210" alt="Screenshot 2025-09-15 114357" src="https://github.com/user-attachments/assets/5d115f15-4d1f-44c3-9e5e-9a045d782ad5" />
+
+
+```
+df.set_index("PassengerId",inplace=True)
+df
+```
+
+<img width="968" height="375" alt="image" src="https://github.com/user-attachments/assets/f6afc91c-7f97-4efc-9ba3-ae15157c3637" />
+
+```
+df.nunique()
+```
+
+<img width="205" height="210" alt="image" src="https://github.com/user-attachments/assets/adec7dd9-f15d-4fac-baf8-3ddf011e5a61" />
+
+```
+sns.countplot(data=df,x='Age')
+```
+
+<img width="715" height="461" alt="image" src="https://github.com/user-attachments/assets/0c3ad714-64d7-4214-8b0d-0eef78894457" />
+
+```
+
+```
 # RESULT
         <<INCLUDE YOUR RESULT HERE>>
