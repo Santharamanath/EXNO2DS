@@ -87,6 +87,46 @@ df.rename(columns={'Sex':'Gender'},inplace=True)
 df
 ```
 
+<img width="962" height="381" alt="image" src="https://github.com/user-attachments/assets/0e0ee461-50c0-4a0a-a650-9529f16b4a2f" />
+
+```
+sns.catplot(x="Gender",col="Age",kind="count",data=df,height=5,aspect=.7)
+```
+
+<img width="983" height="62" alt="image" src="https://github.com/user-attachments/assets/e0970852-493a-48cb-92f4-9df66649b04d" />
+
+```
+df.boxplot(column="Age",by="Survived")
+```
+
+<img width="701" height="497" alt="image" src="https://github.com/user-attachments/assets/0c47402d-4cc2-4ff1-ba87-fd8283e1c1ba" />
+
+```
+sns.scatterplot(x=df["Age"],y=df["Fare"])
+```
+
+<img width="671" height="462" alt="image" src="https://github.com/user-attachments/assets/83d00ba6-842d-4b08-bb4b-0017490ab391" />
+
+```
+plt=sns.boxplot(x='Pclass',y='Age',hue='Gender',data=df)
+```
+
+<img width="590" height="426" alt="image" src="https://github.com/user-attachments/assets/4f59b55c-88f2-4ba6-b862-27fd28cd2963" />
+
+
+```
+sns.catplot(x='Pclass',y="Age",hue="Gender",col="Survived",kind="box",data=df)
+```
+
+<img width="990" height="482" alt="image" src="https://github.com/user-attachments/assets/e74918b5-0890-400c-a01d-dda71ab8f4a3" />
+
+```
+corr=df.corr(numeric_only=True)
+sns.heatmap(corr,annot=True)
+```
+
+<img width="601" height="442" alt="image" src="https://github.com/user-attachments/assets/fbd31324-7999-4088-9ea0-08dfd335f6f2" />
+
 
 # RESULT
-        <<INCLUDE YOUR RESULT HERE>>
+        Thus,this is To perform Exploratory Data Analysis on the given data set.
